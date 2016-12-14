@@ -1,0 +1,68 @@
+.background{
+	background-image: url("http://i.imgur.com/1N5vIwt.jpg");
+	background-repeat: repeat-y;
+	height: 600px;
+	border-radius: 10px;
+	
+}
+
+header.main{
+	background-image: url("http://i.imgur.com/TKy1nAE.jpg");
+	height: 100px;
+	width: 480px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+
+}
+h1{
+	color: white;
+	padding-top: 30px;
+	font-family: 'Molle', cursive;
+	font-size: 400%;
+}
+
+.snake1{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+}
+.snake2{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: white;
+	size: 400%;
+}
+
+.snake3{
+	color: white;
+}
+li{
+	background-color: green;
+	color: green;
+	margin-right: 10px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+a{
+	color: white;
+	font-family: 'Molle', cursive;
+	font-size: 150%;
+
+}
+body{
+	margin-left: 10px;
+}
+
+button{
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	size: 300%;
+}
+
+img{
+	border-radius: 10px;
+}
+h2{
+	margin-left: 0px;
+	padding-left: 0px;
+}

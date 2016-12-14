@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Rattlesnake</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link  rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Yanone+Kaffeesatz" rel="stylesheet">
+  
+</head>
+
+<body>
+
+	<header class="main">
+		<h1>Rattlesnake!
+		</h1>
+		
+	</header>
+  <div class="background">
+  <br/>
+ <div class="w3-container">
+
+
+<button onclick="document.getElementById('id01').style.display='block'" class="w3-btn">Click me!</button>
+
+
+<div id="id01" class="km-modal" style="display: none">
+ <div>
+  <div class="w3-container w3-blue"> 
+   <span onclick="document.getElementById('id01').style.display='none'" 
+   class="w3-closebtn w3-padding-top">&times;</span>
+
+  </div>
+
+  <div class="row col-sm-3">
+   <li class="col-sm-3" ><a href="#" class="tablink" onmouseover="openCity(event, 'snake1')">Snake!</a>
+   </li>
+   <li class="col-sm-3"><a href="#" class="tablink" onmouseover="openCity(event, 'snake2')">Snake!</a></li>
+   <li class="col-sm-3"><a href="#" class="tablink" onmouseover="openCity(event, 'snake3')">Snake!</a></li>
+  </div>
+
+  <div id="snake1" class="w3-container city col-sm-12" style="display: none">
+   <h2 class="snake1">Rattlesnake!</h2>
+  <img src="http://i.imgur.com/qG72dHG.jpg" alt="Snake" style="width:304px; height:228px;">
+  </div>
+
+  <div id="snake2" class="w3-container city col-sm-12" style="display:none">
+   <h2 class="snake2">Rattlesnake!</h2>
+   <img src="http://i.imgur.com/adixTFx.jpg" alt="SnakeToo" style="width:304px;height:228px;">
+  </div>
+
+  <div id="snake3" class="w3-container city col-sm-12" style="display:none">
+   <h2 class="snake3">Rattlesnake!</h2>
+   <img src="http://i.imgur.com/yaZFp45.jpg" alt="AnotherSnake" style="width:304px;height:228px;"><br>
+  </div>
+
+  <div class>
+   <button class="w3-btn w3-right w3-white w3-border" 
+   onclick="document.getElementById('id01').style.display='none'">Close</button>
+  </div>
+ </div>
+</div>
+
+</div>
+
+ 
+
+<!-- The Modal -->
+
+   <!--<div id="myGif"><p id="outputMessage"></p>
+   
+   </div>-->
+</div>
+   <iframe id="myMusic" width="0" height="0" src="https://www.youtube.com/embed/YZSYetfaXZw?start=17&autoplay=1" frameborder="0"></iframe>
+ 
+ 
+
+
+<script src="index.js"></script>
+</body>
+
+</html>
